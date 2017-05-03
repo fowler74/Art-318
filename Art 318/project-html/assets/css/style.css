@@ -5,20 +5,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html {height:100%;}
 body {height:100%;}
 .bodyWrap {min-height:100%; position:relative;}
-::selection {background:$selection;}
-.wrap {width:$screen-width; margin:auto;}
+::selection {background:rgba(0,0,0,.6);}
+.wrap {width:960px; margin:auto;}
 .clear {clear:both;}
-.fullWidth {width:100%; min-width:$screen-width;}
+.fullWidth {width:100%; min-width:960px;}
 .beforeFooter {padding-bottom:0px; clear:both;}
 
 /* Input Styles */
 form {box-sizing:border-box;}
-input {@extend form;}
-input::-webkit-input-placeholder {color:$input-color;}
-input:-moz-placeholder {color:$input-color; opacity:1;}
-input::-moz-placeholder {color:$input-color; opacity:1;}
-input:-ms-input-placeholder {color:$input-color;}
-input:placeholder-shown {color:$input-color;}
+input {box-sizing:border-box;}
+input::-webkit-input-placeholder {color:#e7e7e7;}
+input:-moz-placeholder {color:#e7e7e7; opacity:1;}
+input::-moz-placeholder {color:#e7e7e7; opacity:1;}
+input:-ms-input-placeholder {color:#e7e7e7;}
+input:placeholder-shown {color:#e7e7e7;}
 
 /* Float */
 .left {float:left;}
