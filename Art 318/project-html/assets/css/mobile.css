@@ -1,0 +1,21 @@
+/* Smaller than Desktop */
+@media screen and (max-width:960px) {
+	.desktop {display:none;}
+	.mobile {display:block;}
+
+	/* Turns "Stacked" Text Into One Line */
+	.linebreak br {content:' ';}
+	.linebreak br:after {content:' ';}
+}
+
+
+/* Tablet */
+@media screen and (max-width:768px) {
+	
+}
+
+
+/* Phone */
+@media screen and (max-width:414px) {
+	
+}
